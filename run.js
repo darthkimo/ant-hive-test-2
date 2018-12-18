@@ -24,8 +24,8 @@ http.createServer(function(req, res) {
               let random_act = Math.floor(Math.random() * 4);
               let random_dir = Math.floor(Math.random() * 4);
                 response[antId] = {
-                  "act":actions[random_act],
-                  "dir":directions[random_dir]
+                  "act":actions[0],
+                  "dir":directions[1]
                 }
             }
             console.log("Orders:",response)
